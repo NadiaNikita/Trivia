@@ -1,0 +1,68 @@
+
+
+body {
+    background-image: url("https://hdqwalls.com/download/map-photography-on-1280x800.jpg")
+     }
+
+.quizbox {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgb(232, 241, 241);
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    box-shadow:10px 15px 5px gray;
+    
+         }
+
+.quizbox h1 {
+    font-family: sans-serif;
+    background-color: rgb(178, 196, 197);
+    font-size: 50px;
+    text-align:center;
+    color: black;
+    padding: 2px 0px;
+    border-radius: 50px;
+
+}
+
+.quizbox #question {
+    font-family: sans-serif;
+    font-size:30px;
+    color: black
+
+
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#B0, #B1, #B2, #B3 {
+    background-color: antiquewhite;
+    width:250px;
+    font-size:20px;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    margin:10px 40px 10px 0px;
+    padding: 10px 10px;
+
+}
+
+#sofar{
+    color: #000000;
+    font-size: 18px;
+}
+
+#B0:hover, #B1:hover, #B2:hover, #B3:hover {
+    cursor: pointer;
+    background-color: rgb(45, 53, 53)
+}
+
+
+#B0:focus, #B1:focus, #B2:focus, #B3:focus {
+    outline: 0;
+}
+
